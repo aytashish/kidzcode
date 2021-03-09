@@ -1,0 +1,266 @@
+/* .top_header{
+    background-color:Red !important;
+    width: 100% !important;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+header{
+   background: var(--header_bg);  
+   padding:6px 0px;
+   box-shadow: var(--header_box_shadow);
+   position: sticky;
+   width: 100%;
+   top: 0px;
+   z-index:10;
+   transition: 0.5s ease-in-out;
+}
+header.scrolled{
+    box-shadow: var(--header_box_shadow_scroll);
+}
+header .logo{
+   width: 170px;
+   transition: 0.5s ease-in-out;
+}
+
+.logo.scrolled{
+    /* width: 160px; */
+    transform: scale(0.8);
+ }
+
+ #header nav a.active{
+     color:var(--blue_color);
+ }
+
+ #bookFreeClass{
+     transition: .5s ease-in-out;
+ }
+
+ #bookFreeClass.scrolled{
+     padding:5px 20px;
+ }
+
+ .education_img{
+     position: relative;
+ }
+ .education_img img{
+     /* position: absolute;
+     top:0;
+     left: 0; */
+     width: 100%;
+     height: 100%;
+     /* border-radius: 50%; */
+     object-fit: cover;
+ }
+/* .message_section{
+    width: 100%;
+    background-image: url(../images/message_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+} */
+/* .message_section::before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    background:rgba(254, 243, 199,0.6); 
+    background:rgba(0, 0, 0,0.5);
+} */
+
+/* =========cource section============= */
+.cources_icon{
+
+}
+.cources_icon i{
+    font-size: 60px;
+}
+
+
+/* ==================robotics page================ */
+.robotic_course{
+    transition: .5s ease-in-out;
+}
+.robotic_course:hover{
+   background: var(--blue_color);
+   color:#fff;
+}
+
+.robotic_course:hover svg{
+    color:#fff;
+}
+
+.robotic_course.active{
+    background: var(--blue_color);
+    color:#fff;
+}
+
+.robotic_course.active svg{
+    color:#fff;
+    opacity: 0.8;
+}
+
+.Intermediate_robotic_course.active{
+    background: var(--blue_color);
+    color:#fff;
+}
+
+.Intermediate_robotic_course.active svg{
+    color:#fff;
+    opacity: 0.8;
+}
+
+.para p span i{
+    font-size: 8px !important;
+}
+
+.Intermediate_course{
+    display: none;
+}
+
+.Intermediate_course.active{
+    display: block;
+}
+
+/* ============consultation_section=========== */
+.consultation_section p{
+   line-height: 30px;
+   font-weight: normal !important;
+   width: 80%;
+}
+
+/* ==========join us section=========== */
+.join_us{
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ; */
+    /* border-radius: 30% 70% 70% 30% / 38% 52% 48% 62% ; */
+    background: url(../images/bac-01.png);
+    background-position: center;
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+}
+
+/* =============coding page=============== */
+.code_points,
+.robotics_Tab{
+    transition: .5s ease-out;
+}
+.code_points button,
+.robotics_Tab button{
+    border-left: 2px solid #fff;
+}
+.code_points button:first-child,
+.robotics_Tab button:first-child{
+    border:none;
+}
+
+.code_points.scrolled,
+.robotics_Tab.scrolled{
+    background-color:#831843;
+    color:#fff;
+    position: fixed;
+    top:4.5vh;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin:4.5vh 0 auto; */
+    z-index: 99;
+}
+
+@media only screen and (max-width:980px){
+    .code_points.scrolled,
+    .robotics_Tab.scrolled{
+        top:18.5vh;
+        width: 99%;
+    }
+}
+
+.code_points.scrolled button,
+.robotics_Tab.scrolled button{
+    color:#fff;
+}
+
+
+
+.code_points.scrolled button svg,
+.robotics_Tab.scrolled button svg{
+    color:#fff;
+    opacity: 0.6;
+}
+
+.coding_programs{
+    transition: .5s ease-out !important;
+}
+
+.coding_programs:hover{
+    background-color: var(--blue_color);
+    color:#fff;
+}
+.coding_programs:hover svg{
+    color:#fff;
+}
+
+.pythonPills.active,
+.javaPills.active,
+.webPills.active{
+    background-color: var(--blue_color);
+    color:#fff;
+}
+.pythonPills.active svg,
+.javaPills.active svg,
+.webPills.active svg{
+    color:#fff;
+}
+
+
+/* ============python weeks========= */
+.pythonWeekTabs .weekTabs{
+    /* background: red; */
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.pythonweek1Pills.active,
+.pythonweek2Pills.active,
+.pythonweek3Pills.active,
+.pythonweek4Pills.active,
+.pythonweek5Pills.active,
+.pythonweek6Pills.active,
+.pythonweek7Pills.active,
+.pythonweek8Pills.active,
+.pythonweek9Pills.active,
+.pythonweek10Pills.active,
+.pythonweek11Pills.active,
+.pythonweek12Pills.active{
+    background-color: var(--blue_color);
+    color:#fff;
+}
+
+/* --------java ------- */
+.javaweek1Pills.active,
+.javaweek2Pills.active,
+.javaweek3Pills.active,
+.javaweek4Pills.active,
+.javaweek5Pills.active,
+.javaweek6Pills.active,
+.javaweek7Pills.active,
+.javaweek8Pills.active{
+    background-color: var(--blue_color);
+    color:#fff; 
+}
+
+/* ------web design----- */
+.webHtmlPills.active,
+.webCssPills.active,
+.webjavaScriptPills.active{
+    background-color: var(--blue_color);
+    color:#fff; 
+}
+
+/* =========footer section============= */
+.footer_logo{
+    width: 140px;
+}

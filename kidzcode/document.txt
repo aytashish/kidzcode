@@ -1,0 +1,25 @@
+--------install tailwind----------
+-- npm -v
+-- npm init -y (create package.json file)
+-- npm install -D tailwindcss@latest postcss@latest autoprefixer@latest (install tailwind css in our project)
+
+-- create tailwind.css file and copy these lines-
+  /* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+======or=========
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+-- if u customize your tailwind css 
+   -- npx tailwindcss init 
+
+
+=======compile tailwind css file======
+-- npx tailwindcss-cli@latest build -o tailwind.css
+=====or=====
+--  npx tailwindcss-cli@latest build tailwind.css -o style.css  

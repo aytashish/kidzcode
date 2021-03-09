@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2619px" height="651px" viewBox="0 0 2619 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVG-Layer" transform="translate(397.000000, 330.500000) scale(-1, -1) translate(-397.000000, -330.500000) translate(252.000000, 84.000000)" fill="#2E29A4">
+            <g id="Layer_1">
+                <path d="M281.678,226.804 L62.73,7.86 C57.666,2.792 50.906,0 43.698,0 C36.49,0 29.73,2.792 24.666,7.86 L8.542,23.98 C-1.95,34.484 -1.95,51.556 8.542,62.044 L192.398,245.9 L8.338,429.96 C3.274,435.028 0.478,441.784 0.478,448.988 C0.478,456.2 3.274,462.956 8.338,468.028 L24.462,484.144 C29.53,489.212 36.286,492.004 43.494,492.004 C50.702,492.004 57.462,489.212 62.526,484.144 L281.678,265 C286.754,259.916 289.542,253.128 289.526,245.912 C289.542,238.668 286.754,231.884 281.678,226.804 Z" id="Path"></path>
+            </g>
+        </g>
+        <path d="M170,84 C147.498889,84 129.259259,101.871749 129.259259,123.919028 L129.259259,380.983599 C129.259259,403.030879 147.498889,420.902628 170,420.902628 C192.501111,420.902628 210.740741,403.030879 210.740741,380.983599 L210.740741,123.919028 C210.740741,101.871749 192.501111,84 170,84 Z" id="Path" fill="#2E29A4"></path>
+        <ellipse id="Oval" fill="#2E29A4" cx="170" cy="523" rx="55" ry="54"></ellipse>
+        <text id="idzcode" font-family="Poppins-Medium, Poppins" font-size="500" font-weight="400" letter-spacing="3.79999995" fill="#2F2AA3">
+            <tspan x="583.359259" y="498">idzcod</tspan>
+            <tspan x="2267.15926" y="498">e</tspan>
+        </text>
+    </g>
+</svg>

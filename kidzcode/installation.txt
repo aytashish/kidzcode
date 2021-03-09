@@ -1,0 +1,8 @@
+1):- npm init -y
+2):- npm install tailwindcss
+
+====edit package.json file in script=======
+"build": "tailwindcss build ./src/tailwind.css -o ./public/css/style.css"
+
+-----compile tailwind.css file in style.css------
+3):- npm run build
